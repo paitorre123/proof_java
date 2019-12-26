@@ -1,4 +1,4 @@
-package proof.clases.genericas;
+package proof.patron.command;
 
 public abstract class Persona {
 	
