@@ -1,5 +1,7 @@
 package proof.patron.command;
 
+import proof.genericos.Persona;
+
 public class Cliente extends Persona implements ICommandObtenerDatos{
 	
 	

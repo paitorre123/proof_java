@@ -18,7 +18,7 @@ public class Suzuki extends Vehiculo {
 			e.printStackTrace();
 		}
 	}
-
+	
 	public String getModelo() {
 		return modelo;
 	}
@@ -33,6 +33,12 @@ public class Suzuki extends Vehiculo {
 
 	public void setFechaEnsamblado(Date fechaEnsamblado) {
 		this.fechaEnsamblado = fechaEnsamblado;
+	}
+
+	@Override
+	public void mostrarIdentificacion() {
+		System.out.println("Modelo: "+ this.modelo + " Patente: "+ super.getPatente());
+		
 	}
 	
 

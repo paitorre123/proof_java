@@ -2,6 +2,8 @@ package proof.patron.command;
 
 import java.util.ArrayList;
 
+import proof.genericos.Persona;
+
 public class InvokerDatosPersonas {
 	
 	private ArrayList<Persona> personas;

@@ -1,6 +1,6 @@
 package proof.genericos;
 
-public abstract class Vehiculo {
+public abstract class Vehiculo  implements IIdentificar{
 	
 	private String patente;
 
